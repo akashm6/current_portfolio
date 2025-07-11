@@ -25,7 +25,7 @@ const projects = [
   },
   {
     name: "OSMatch",
-    description: "Tinder for restaurants! Currently under development.",
+    description: "Tinder for open source GitHub projects!",
     tools: [
       "Spring Boot",
       "Spring Security",

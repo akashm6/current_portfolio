@@ -120,8 +120,3 @@
     @apply bg-background text-foreground;
   }
 }
-
-
-body {
-  background: radial-gradient(ellipse at top, #0f0f1b, #0a0a0f);
-}

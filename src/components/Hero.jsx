@@ -68,13 +68,23 @@ export default function Hero() {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href=""
+            href="/AkashMohanResume2025.pdf"
             target="_blank"
             className="hover:text-purple-500 transition-colors"
           >
             <FileText className="w-5 h-5" />
           </a>
         </div>
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: 1.2, duration: 0.6 }}
+          className="absolute bottom-6 w-full flex justify-center"
+        >
+          <div className="animate-bounce text-muted-foreground text-sm">
+            ↓ scroll to learn more
+          </div>
+        </motion.div>
       </motion.div>
     </motion.section>
   );

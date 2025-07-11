@@ -15,7 +15,6 @@ export default function Hero() {
       transition={{ duration: 0.8 }}
       className="relative text-center max-w-3xl px-4 py-40 sm:py-48"
     >
-      {/* Heading */}
       <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
         hi! i'm{" "}
         <span className="text-purple-500 inline-flex">
@@ -32,13 +31,10 @@ export default function Hero() {
         </span>
       </h1>
 
-      {/* Subtitle */}
       <p className="text-muted-foreground text-lg sm:text-xl font-medium mb-8 max-w-xl mx-auto">
-        i build backend systems, solve problems with data, and love elegant
-        code.
+        placeholdertext for the real thing i'll put on the hero
       </p>
 
-      {/* CTA + Icons */}
       <motion.div
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
@@ -55,7 +51,7 @@ export default function Hero() {
 
         <div className="flex items-center gap-4 text-muted-foreground">
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/akashm6"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-500 transition-colors"
@@ -63,7 +59,7 @@ export default function Hero() {
             <Github className="w-5 h-5" />
           </a>
           <a
-            href="https://linkedin.com/in/yourprofile"
+            href="https://linkedin.com/in/amohan7"
             target="_blank"
             rel="noopener noreferrer"
             className="hover:text-purple-500 transition-colors"
@@ -71,7 +67,7 @@ export default function Hero() {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="/AkashMohanResume.pdf"
+            href=""
             target="_blank"
             className="hover:text-purple-500 transition-colors"
           >

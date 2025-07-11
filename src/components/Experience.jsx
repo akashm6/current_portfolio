@@ -25,7 +25,7 @@ const experiences = [
     timeframe: "May 2024 – Dec 2024",
     icon: Database,
     description:
-      "Built backend APIs and implemented Google Maps integration for a CAT Rental prototype.",
+      "Built backend APIs for a full-stack prototype and optimized ETL/UX for Tableau and Alteryx workflows.",
     details: [
       "Developed a full-stack rental app prototype using Next.js and Flask; tested AWS SES notifications with 50,000+ simulated users at 99%+ deliverability and optimized Google Maps API for sub 500ms tracking update times.",
       "Optimized Tableau dashboards for 800+ daily users, improving UX and reducing manual updates by 30% using TabPy scripting.",
@@ -34,11 +34,15 @@ const experiences = [
     skills: [
       "Next.js",
       "Flask",
-      "Google Maps API",
-      "AWS SES",
+      "Python",
       "Tableau",
       "Alteryx",
-      "PostgreSQL",
+      "SQL",
+      "AWS",
+      "Snowflake",
+      "TabPy",
+      "Google Maps API",
+      "UI/UX",
     ],
   },
   {
@@ -86,13 +90,13 @@ export default function Experience() {
         {experiences.map((exp, i) => (
           <motion.div
             key={i}
-            whileHover={{ scale: 1.02 }}
-            transition={{ type: "spring", stiffness: 200 }}
-            className="relative group"
+            whileHover={{ scale: 1.01 }}
+            transition={{ duration: 0.2, ease: "easeOut" }}
+            className="relative group will-change-transform"
           >
             <Card
               onClick={() => setOpenModalIndex(i)}
-              className="cursor-pointer group-hover:shadow-lg transition-shadow"
+              className="cursor-pointer transition-all duration-300 group-hover:shadow-[0_0_0.5rem_#a855f7]/30 border border-border bg-muted/30 hover:border-purple-500/60"
             >
               <CardHeader className="flex items-center justify-between space-y-0 pb-2">
                 <div className="flex items-center gap-3">
@@ -104,27 +108,32 @@ export default function Experience() {
                 </span>
               </CardHeader>
               <CardContent className="pt-0">
-                <span className="text-sm font-semibold text-foreground">
+                <span className="text-sm font-semibold text-foreground block mb-1 tracking-tight">
                   {exp.company}
                 </span>
-                {exp.description && (
-                  <p className="text-sm text-muted-foreground mt-1">
-                    {exp.description}
-                  </p>
-                )}
+                <CardDescription>
+                  {exp.description && (
+                    <p className="text-sm text-muted-foreground leading-snug">
+                      {exp.description}
+                    </p>
+                  )}
+                </CardDescription>
               </CardContent>
             </Card>
 
             <AnimatePresence>
               {openModalIndex === i && (
                 <Dialog open onOpenChange={() => setOpenModalIndex(null)}>
-                  <DialogContent className="max-w-lg" forceMount>
+                  <DialogContent
+                    className="max-w-lg cursor-default [&>button]:cursor-pointer"
+                    forceMount
+                  >
                     <motion.div
                       key="modal"
                       initial={{ opacity: 0, scale: 0.95 }}
                       animate={{ opacity: 1, scale: 1 }}
                       exit={{ opacity: 0, scale: 0.95 }}
-                      transition={{ duration: 0.25 }}
+                      transition={{ duration: 0.15 }}
                       className="bg-background text-foreground rounded-lg shadow-lg p-6"
                     >
                       <DialogHeader>

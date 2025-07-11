@@ -80,7 +80,7 @@ export default function Experience() {
       whileInView={{ opacity: 1, y: 0 }}
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
-      className="max-w-4xl mx-auto px-6 py-24 scroll-mt-24"
+      className="max-w-4xl mx-auto px-6 py-14 scroll-mt-24"
     >
       <h2 className="text-3xl sm:text-4xl font-bold mb-12 text-center">
         experience

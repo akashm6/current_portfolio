@@ -13,7 +13,7 @@ export default function Hero() {
       initial={{ opacity: 0, y: 20 }}
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8 }}
-      className="relative text-center max-w-3xl px-4 py-40 sm:py-48"
+      className="relative text-center max-w-3xl px-4 py-40 sm:py-48 scroll-mt-24"
     >
       <h1 className="text-5xl sm:text-6xl font-extrabold tracking-tight mb-6 leading-tight">
         hi! i'm{" "}
@@ -32,7 +32,8 @@ export default function Hero() {
       </h1>
 
       <p className="text-muted-foreground text-lg sm:text-xl font-medium mb-8 max-w-xl mx-auto">
-        placeholdertext for the real thing i'll put on the hero
+        i'm a full-stack engineer studying computer science & data science @
+        uw-madison.
       </p>
 
       <motion.div

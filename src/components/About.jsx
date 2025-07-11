@@ -67,6 +67,14 @@ export default function About() {
       className="max-w-3xl mx-auto px-6 pt-8 pb-20 scroll-mt-24"
     >
       <Reveal>
+        <div className="flex justify-center mb-6">
+          <img
+            src="/linkedinpfp.jpg"
+            alt="Akash Mohan"
+            className="w-30 h-30 rounded-full object-cover border border-border shadow-sm"
+          />
+        </div>
+
         <h2 className="text-3xl sm:text-4xl font-bold mb-10 text-center">
           about me
         </h2>

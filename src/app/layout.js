@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from '../components/ThemeProvider'
+import Script from "next/script";
 
 
 const geistSans = Geist({
@@ -25,8 +26,12 @@ export default function RootLayout({ children }) {
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
           {children}
         </ThemeProvider>
-      <script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "e706508fdf4e4a158a50812b2da61805"}'></script>
-      </body>
+        <Script
+          src="https://static.cloudflareinsights.com/beacon.min.js"
+          data-cf-beacon='{"token": "e706508fdf4e4a158a50812b2da61805"}'
+          strategy="afterInteractive"
+        />      
+        </body>
     </html>
   )
 }

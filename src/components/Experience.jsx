@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Database, Code2 } from "lucide-react";
+import { Database, Code2, Router } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -18,6 +18,24 @@ import {
 } from "@/components/ui/dialog";
 
 const experiences = [
+  {
+    title: "Help Desk Support Agent",
+    company: "UW-Madison Division of Information Technology",
+    logo: "/wisconsin3.png",
+    timeframe: "Aug 2025 – Present",
+    icon: Router,
+    description:
+      "Providing IT services and support to over 2,000 faculty, 16,000 campus staff, and 43,000 students.",
+    details: ["Currently working! Will be updated soon."],
+    skills: [
+      "Troubleshooting",
+      "Hardware Support",
+      "Networking",
+      "Next.js",
+      "Microsoft Suite",
+      "SQL",
+    ],
+  },
   {
     title: "Software & Data Engineer Intern",
     company: "Caterpillar",

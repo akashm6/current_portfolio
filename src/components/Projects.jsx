@@ -7,9 +7,9 @@ import Link from "next/link";
 
 const projects = [
   {
-    name: "Atlascope",
+    name: "GeoSynth",
     description:
-      "Visualized global crisis events tracker with real-time update, natural language LLM integration, geospatial trend analysis, and interactive Mapbox (under development)",
+      "Visualized global crisis events tracker with real-time update, natural language LLM queries, geospatial trend analysis, and interactive Mapbox.",
     tools: [
       "LangChain",
       "Celery",
@@ -21,7 +21,7 @@ const projects = [
       "Next.js",
       "Redis",
     ],
-    github: "https://github.com/akashm6/atlascope",
+    github: "https://github.com/akashm6/GeoSynth",
   },
   {
     name: "OSMatch",

@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github } from "lucide-react";
+import { Github, SquareArrowOutUpRight } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import Link from "next/link";
 
@@ -13,15 +13,16 @@ const projects = [
     tools: [
       "LangChain",
       "Celery",
+      "TypeScript",
       "FastAPI",
       "PostGIS",
       "PostgreSQL",
       "Mapbox",
-      "TypeScript",
       "Next.js",
       "Redis",
     ],
     github: "https://github.com/akashm6/GeoSynth",
+    external_link: "https://geosynth-five.vercel.app/",
   },
   {
     name: "OSMatch",
@@ -40,6 +41,7 @@ const projects = [
       "Yelp API",
     ],
     github: "https://github.com/akashm6/osmatch",
+    external_link: "https://osmatch.vercel.app/",
   },
   {
     name: "Riffr",
@@ -118,9 +120,16 @@ export default function Projects() {
               <CardHeader className="pb-2">
                 <div className="flex items-center justify-between gap-2">
                   <CardTitle className="text-xl">{project.name}</CardTitle>
-                  <Link href={project.github} target="_blank">
-                    <Github className="h-5 w-5 text-muted-foreground hover:text-purple-400 transition-colors" />
-                  </Link>
+                  <div className="flex items-center justify-between gap-8">
+                    {project.external_link && (
+                      <Link href={project.external_link} target="_blank">
+                        <SquareArrowOutUpRight className="h-5 w-5 text-muted-foreground hover:text-purple-400 transition-colors" />
+                      </Link>
+                    )}
+                    <Link href={project.github} target="_blank">
+                      <Github className="h-5 w-5 text-muted-foreground hover:text-purple-400 transition-colors" />
+                    </Link>
+                  </div>
                 </div>
               </CardHeader>
               <CardContent className="text-sm text-muted-foreground space-y-3">

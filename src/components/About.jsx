@@ -31,7 +31,7 @@ const sections = [
   {
     icon: <Terminal className="w-5 h-5 text-purple-500 shrink-0" />,
     title: "Current Fixations",
-    content: `• Currently building GeoSynth, a real-time global crisis tracker with LLM-assisted search and geospatial trend analysis. Stack includes Celery, FastAPI, LangChain, Redis, PostgreSQL, and Mapbox.
+    content: `• Currently building codebaser, an AI-powered codebase navigation tool that helps users navigate unfamiliar codebases by asking questions in natural language. Stack includes Tree-sitter, AWS S3, ChromaDB, TypeScript, and Postgres.
     • Interested in getting into some ML research!
     • Trying out React Native mobile development.
     • Learning optimal query patterns for database interactions.`,

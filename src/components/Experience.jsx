@@ -45,9 +45,21 @@ const experiences = [
     description:
       "Built backend APIs for a full-stack prototype and optimized ETL/UX for Tableau and Alteryx workflows.",
     details: [
-      "Developed a full-stack rental app prototype using Next.js and Flask; tested AWS SES notifications with 50,000+ simulated users at 99%+ deliverability and optimized Google Maps API for sub 500ms tracking update times.",
-      "Optimized Tableau dashboards for 800+ daily users, improving UX and reducing manual updates by 30% using TabPy scripting.",
-      "Reduced dashboard refresh time by 10% by optimizing Alteryx workflows, increasing data processing speed.",
+      <>
+        Engineered a full-stack rental app prototype using Flask and Next.js;
+        tested AWS SES with <strong>50,000+</strong> simulated users at{" "}
+        <strong>99%+</strong> deliverability and scaled geolocation services via
+        load-tested APIs for <strong>sub 500ms</strong> update latency.
+      </>,
+      <>
+        Enhanced Tableau dashboards for <strong>800+</strong> daily users by
+        integrating TabPy scripts, streamlining UX and reducing manual updates
+        by <strong>30%.</strong>
+      </>,
+      <>
+        Cut dashboard refresh time by <strong>10%</strong> by optimizing Alteryx
+        workflows, accelerating data pipeline performance.
+      </>,
     ],
     skills: [
       "Next.js",
@@ -65,16 +77,28 @@ const experiences = [
   },
   {
     title: "Systems & Data Insights Intern",
-    company: "Skills for Chicagoland's Future",
+    company: "Skills for Chicago",
     logo: "/scf.png",
     timeframe: "May 2023 – Aug 2023",
     icon: Code2,
     description:
       "Led automation projects to streamline workforce data analysis and reporting workflows.",
     details: [
-      "Automated updates for 10,000+ client records via Selenium, Pandas, and PostgreSQL; implemented a no-code scheduling solution via Zapier to reduce manual work by 80%.",
-      "Streamlined client address geocoding and commute distance calculations using PyXLL and Nominatim, achieving 95% accuracy and identifying key trends in Chicago unemployment retention rates.",
-      "Conducted research on unemployment and labor market trends across 5 major cities in Illinois; Analyzed 50+ reports and datasets to drive business decisions regarding regional disparities.",
+      <>
+        Automated updates for <strong>10,000+</strong> client records via
+        Selenium, Pandas, and PostgreSQL; implemented a no-code scheduling
+        solution via Zapier to reduce manual work by <strong>80%</strong>.
+      </>,
+      <>
+        Streamlined client address geocoding and commute distance calculations
+        using PyXLL and Nominatim, achieving <strong>95%</strong> accuracy and
+        identifying key trends in Chicago unemployment retention rates.
+      </>,
+      <>
+        Conducted research on unemployment and labor market trends across 5
+        major cities in Illinois; Analyzed <strong>50+</strong> reports and
+        datasets to drive business decisions regarding regional disparities.
+      </>,
     ],
     skills: [
       "Selenium",

@@ -25,7 +25,7 @@ const projects = [
   {
     name: "GeoSynth",
     description:
-      "Visualized global crisis events tracker with real-time update, natural language LLM queries, geospatial trend analysis, and interactive Mapbox.",
+      "Explore and track global crisis events visually in real-time. Complete with real-time update, natural language LLM queries, geospatial trend analysis, and interactive Mapbox.",
     tools: [
       "LangChain",
       "Celery",

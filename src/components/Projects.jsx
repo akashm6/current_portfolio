@@ -7,6 +7,22 @@ import Link from "next/link";
 
 const projects = [
   {
+    name: "codebaser",
+    description:
+      "Navigate unfamiliar codebases by asking questions in natural language! Support for Python, Java, JavaScript, TypeScript, and Go. (under development)",
+    tools: [
+      "Chroma",
+      "Tree-sitter",
+      "AWS S3",
+      "TypeScript",
+      "OpenAI",
+      "FastAPI",
+      "PostgreSQL",
+      "Next.js",
+    ],
+    github: "https://github.com/akashm6/codebaser",
+  },
+  {
     name: "GeoSynth",
     description:
       "Visualized global crisis events tracker with real-time update, natural language LLM queries, geospatial trend analysis, and interactive Mapbox.",

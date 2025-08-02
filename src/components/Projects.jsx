@@ -9,7 +9,7 @@ const projects = [
   {
     name: "codebaser",
     description:
-      "Navigate unfamiliar codebases by asking questions in natural language! Support for Python, Java, JavaScript, TypeScript, and Go. (under development)",
+      "Navigate unfamiliar codebases by asking questions in natural language! Support for Python, Java, JavaScript, TypeScript, and Go.",
     tools: [
       "Chroma",
       "Tree-sitter",
@@ -21,6 +21,7 @@ const projects = [
       "Next.js",
     ],
     github: "https://github.com/akashm6/codebaser",
+    external_link: "https://codebaser.vercel.app/",
   },
   {
     name: "GeoSynth",

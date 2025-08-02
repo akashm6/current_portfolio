@@ -19,6 +19,7 @@ const projects = [
       "FastAPI",
       "PostgreSQL",
       "Next.js",
+      "Docker",
     ],
     github: "https://github.com/akashm6/codebaser",
     external_link: "https://codebaser.vercel.app/",

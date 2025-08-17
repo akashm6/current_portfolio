@@ -43,22 +43,23 @@ const experiences = [
     timeframe: "May 2024 – Dec 2024",
     icon: Database,
     description:
-      "Built backend APIs for a full-stack prototype and optimized ETL/UX for Tableau and Alteryx workflows.",
+      "Builtbackend APIs for a full-stack prototype and optimized ETL for Tableau and Alteryx workflows.",
     details: [
       <>
-        Engineered a full-stack rental app prototype using Flask and Next.js;
-        tested AWS SES with <strong>50,000+</strong> simulated users at{" "}
-        <strong>99%+</strong> deliverability and scaled geolocation services via
-        load-tested APIs for <strong>sub 500ms</strong> update latency.
+        Engineered a full-stack rental app prototype (Flask, Next.js) with AWS
+        SES email workflows and geolocation mapping; load-tested APIs with{" "}
+        <strong>1,500+</strong> simulated concurrent users, maintaining{" "}
+        <strong>sub-400ms</strong> latency.
       </>,
       <>
         Enhanced Tableau dashboards for <strong>800+</strong> daily users by
-        integrating TabPy scripts, streamlining UX and reducing manual updates
-        by <strong>30%.</strong>
+        integrating Python (TabPy) scripts, automating refresh pipelines and
+        reducing manual interventions by <strong>30%.</strong>
       </>,
       <>
-        Cut dashboard refresh time by <strong>10%</strong> by optimizing Alteryx
-        workflows, accelerating data pipeline performance.
+        Refactored Alteryx workflows and Snowflake migration scripts, cutting
+        data transfer times by <strong>10%</strong> and improving pipeline
+        throughput.
       </>,
     ],
     skills: [
@@ -82,17 +83,17 @@ const experiences = [
     timeframe: "May 2023 – Aug 2023",
     icon: Code2,
     description:
-      "Led automation projects to streamline workforce data analysis and reporting workflows.",
+      "Built automation microservices to streamline workforce data analysis and reporting workflows.",
     details: [
       <>
         Automated updates for <strong>10,000+</strong> client records via
         Selenium, Pandas, and PostgreSQL; implemented a no-code scheduling
-        solution via Zapier to reduce manual work by <strong>80%</strong>.
+        solution (Zapier) to cut manual work by <strong>80%</strong>.
       </>,
       <>
-        Streamlined client address geocoding and commute distance calculations
-        using PyXLL and Nominatim, achieving <strong>95%</strong> accuracy and
-        identifying key trends in Chicago unemployment retention rates.
+        Built a geocoding + commute-distance microservice (PyXLL, Nominatim) for
+        internal datasets, achieving <strong>95%</strong> location-matching
+        accuracy and powering retention rate analytics.
       </>,
       <>
         Conducted research on unemployment and labor market trends across 5

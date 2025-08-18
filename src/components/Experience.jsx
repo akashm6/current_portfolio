@@ -43,7 +43,7 @@ const experiences = [
     timeframe: "May 2024 – Dec 2024",
     icon: Database,
     description:
-      "Builtbackend APIs for a full-stack prototype and optimized ETL for Tableau and Alteryx workflows.",
+      "Built backend APIs for a full-stack prototype and optimized ETL for Tableau and Alteryx workflows.",
     details: [
       <>
         Engineered a full-stack rental app prototype (Flask, Next.js) with AWS
@@ -77,7 +77,7 @@ const experiences = [
     ],
   },
   {
-    title: "Systems & Data Insights Intern",
+    title: "Data Engineering Intern",
     company: "Skills for Chicago",
     logo: "/scf.png",
     timeframe: "May 2023 – Aug 2023",

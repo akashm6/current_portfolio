@@ -58,7 +58,7 @@ const experiences = [
       </>,
       <>
         Refactored Alteryx workflows and Snowflake migration scripts, cutting
-        data transfer times by <strong>10%</strong> and improving pipeline
+        data transfer times by <strong>12%</strong> and improving pipeline
         throughput.
       </>,
     ],
@@ -92,7 +92,7 @@ const experiences = [
       </>,
       <>
         Built a geocoding + commute-distance microservice (PyXLL, Nominatim) for
-        internal datasets, achieving <strong>95%</strong> location-matching
+        internal datasets, achieving <strong>96%</strong> location-matching
         accuracy and powering retention rate analytics.
       </>,
       <>

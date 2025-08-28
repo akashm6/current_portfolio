@@ -57,6 +57,21 @@ const projects = [
       "Hibernate",
       "GitHub API",
     ],
+    github: "https://github.com/akashm6/recallio/",
+    external_link: "https://recallio-five.vercel.app/",
+  },
+  {
+    name: "recallio",
+    description:
+      "Personalize your spaced-repetition studying based on the SM-2 algorithm! Create or import your own study decks and get scheduled reviews based on your performance.",
+    tools: [
+      "Express.js",
+      "Node.js",
+      "MongoDB",
+      "React.js",
+      "Zustand",
+      "TypeScript",
+    ],
     github: "https://github.com/akashm6/osmatch",
     external_link: "https://osmatch.vercel.app/",
   },

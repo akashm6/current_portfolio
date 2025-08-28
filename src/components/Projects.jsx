@@ -72,8 +72,8 @@ const projects = [
       "Zustand",
       "TypeScript",
     ],
-    github: "https://github.com/akashm6/osmatch",
-    external_link: "https://osmatch.vercel.app/",
+    github: "https://github.com/akashm6/recallio",
+    external_link: "https://recallio-five.vercel.app/",
   },
   {
     name: "Riffr",

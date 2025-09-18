@@ -68,7 +68,7 @@ export default function Hero() {
             <Linkedin className="w-5 h-5" />
           </a>
           <a
-            href="/AkashMohanResume2025_08_27.pdf"
+            href="/AkashMohanResume2025_09_16.pdf"
             target="_blank"
             className="hover:text-purple-500 transition-colors"
           >

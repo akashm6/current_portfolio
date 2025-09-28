@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Database, Code2, Router } from "lucide-react";
+import { Database, Code2, Router, FilePlus } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -18,6 +18,24 @@ import {
 } from "@/components/ui/dialog";
 
 const experiences = [
+  {
+    title: "Software Engineer Intern",
+    company: "LawBandit",
+    logo: "/lawbandit_logo.jpeg",
+    timeframe: "Sep 2025 – Present",
+    icon: FilePlus,
+    description:
+      "Developing legal tech features with TypeScript and LLMs to streamline document navigation for thousands of users.",
+    details: [
+      <>
+        Chosen from <strong>2,500+ submissions</strong> in a competitive coding
+        challenge; building legal tech (TypeScript, LLMs) for{" "}
+        <strong>3,000+</strong> users, including interactive document
+        visualization and smart PDF navigation.
+      </>,
+    ],
+    skills: ["TypeScript", "Node.js", "Next.js", "FastAPI", "OpenAI", "Agile"],
+  },
   {
     title: "Help Desk Support Agent",
     company: "UW-Madison Division of Information Technology",

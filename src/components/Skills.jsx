@@ -98,6 +98,7 @@ export default function Skills() {
             className="relative flex flex-col items-center justify-center text-center"
             onHoverStart={() => setHovered(category)}
             onHoverEnd={() => setHovered(null)}
+            onClick={() => setHovered(hovered === category ? null : category)}
           >
             <div
               className={`w-32 h-32 rounded-full bg-gradient-to-br ${categoryColors[category]} flex items-center justify-center text-white font-semibold shadow-lg transition-transform duration-300 hover:scale-105`}

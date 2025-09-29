@@ -25,13 +25,23 @@ const experiences = [
     timeframe: "Sep 2025 – Present",
     icon: FilePlus,
     description:
-      "Developing legal tech features with TypeScript and LLMs to streamline document navigation for thousands of users.",
+      "Shipping legal educational tools with TypeScript and LLMs to streamline document navigation for thousands of users.",
     details: [
       <>
-        Chosen from <strong>2,500+ submissions</strong> in a competitive coding
-        challenge; building legal tech (TypeScript, LLMs) for{" "}
-        <strong>3,000+</strong> users, including interactive document
-        visualization and smart PDF navigation.
+        Selected from <strong>2,500+ submissions</strong> in a competitive
+        coding challenge to build legal educational tools for{" "}
+        <strong>3,000+</strong> students.
+      </>,
+      <>
+        Shipping LLM-powered PDF navigation and interactive document
+        visualization with TypeScript, Node.js, React Flow, and PostgreSQL,
+        implementing <strong>batch-processing</strong> pipelines to accelerate
+        parsing and improve responsiveness.
+      </>,
+      <>
+        Collaborating in a fast-paced Agile team to design, test, and iterate on
+        user feedback loops to streamline learning experiences and drive
+        engagement.
       </>,
     ],
     skills: ["TypeScript", "Node.js", "Next.js", "FastAPI", "OpenAI", "Agile"],

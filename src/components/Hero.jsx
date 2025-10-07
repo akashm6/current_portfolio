@@ -82,7 +82,7 @@ export default function Hero() {
           className="absolute bottom-6 w-full flex justify-center"
         >
           <div className="animate-bounce text-muted-foreground text-sm">
-            ↓ scroll to learn more
+            <a href="#about">↓ scroll to learn more</a>
           </div>
         </motion.div>
       </motion.div>

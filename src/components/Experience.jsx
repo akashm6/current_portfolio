@@ -2,7 +2,7 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Database, Code2, Router, FilePlus } from "lucide-react";
+import { Database, Code2, Router, FilePlus, CircuitBoard } from "lucide-react";
 import {
   Card,
   CardContent,
@@ -18,6 +18,16 @@ import {
 } from "@/components/ui/dialog";
 
 const experiences = [
+  {
+    title: "Software Engineer Intern",
+    company: "Quasar",
+    logo: "/quasarlogo.png",
+    timeframe: "Oct 2025 – Present",
+    icon: CircuitBoard,
+    description: "Python GUI development for EEG & EKG hardware.",
+    details: [<>Just started! Will update soon.</>],
+    skills: ["Python", "NiceGUI", "FastAPI"],
+  },
   {
     title: "Software Engineer Intern",
     company: "LawBandit",

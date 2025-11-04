@@ -22,7 +22,7 @@ const experiences = [
     title: "Software Engineer Intern",
     company: "Quasar",
     logo: "/quasarlogo.png",
-    timeframe: "Oct 2025 – Present",
+    timeframe: "Nov 2025 – Present",
     icon: CircuitBoard,
     description: "Python GUI development for EEG & EKG hardware.",
     details: [<>Just started! Will update soon.</>],
@@ -60,7 +60,7 @@ const experiences = [
     title: "Help Desk Support Agent",
     company: "UW-Madison Division of Information Technology",
     logo: "/wisconsin3.png",
-    timeframe: "Aug 2025 – Present",
+    timeframe: "Aug 2025 – Nov 2025",
     icon: Router,
     description:
       "Providing IT services and support to over 2,000 faculty, 16,000 campus staff, and 43,000 students.",

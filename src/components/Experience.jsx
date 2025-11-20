@@ -24,9 +24,33 @@ const experiences = [
     logo: "/quasarlogo.png",
     timeframe: "Nov 2025 – Present",
     icon: CircuitBoard,
-    description: "Python GUI development for EEG & EKG hardware.",
-    details: [<>Just started! Will update soon.</>],
-    skills: ["Python", "NiceGUI", "FastAPI"],
+    description:
+      "Real-time signal processing and visualization pipelines for EEG & EKG hardware.",
+    details: [
+      <>
+        Built a real-time EEG streaming pipeline using LSL and multiprocessing,
+        reliably ingesting & synchronizing 250 Hz hardware signals with zero
+        sample loss and <strong>sub-10ms processing latency.</strong>
+      </>,
+      <>
+        Developed a real-time blink-pattern detector using a 3-second rolling
+        window, derivative-based peak detection, and waveform-symmetry analysis
+        to accurately identify intentional blink bursts under noisy EEG signals.
+      </>,
+      <>
+        Collaborated with neuroscientists in a fast-paced Agile team to design,
+        test, and refine responsive EEG interaction loops.
+      </>,
+    ],
+    skills: [
+      "Python",
+      "NumPy",
+      "LSL",
+      "SciPy",
+      "NiceGUI",
+      "Multiprocessing",
+      "FastAPI",
+    ],
   },
   {
     title: "Software Engineer Intern",
@@ -38,23 +62,33 @@ const experiences = [
       "Shipping legal educational tools with TypeScript and LLMs to streamline document navigation for thousands of users.",
     details: [
       <>
+        Delivered LLM-powered PDF navigation and interactive flowchart
+        visualization using TypeScript and React Flow, implementing{" "}
+        <strong>batch-processing</strong> pipelines that cut document parsing
+        time by <strong>45%</strong>.
+      </>,
+      <>
+        Architected an automated syllabus-ingestion pipeline using AWS Lambda,
+        Textract, and S3, asynchronously processing multi-page PDFs with{" "}
+        <strong>sub-second per-page latency.</strong>
+      </>,
+      <>
         Selected from <strong>2,500+ submissions</strong> in a competitive
         coding challenge to build legal educational tools for{" "}
         <strong>3,000+</strong> students.
       </>,
-      <>
-        Shipping LLM-powered PDF navigation and interactive document
-        visualization with TypeScript, Node.js, React Flow, and PostgreSQL,
-        implementing <strong>batch-processing</strong> pipelines to accelerate
-        parsing and improve responsiveness.
-      </>,
-      <>
-        Collaborating in a fast-paced Agile team to design, test, and iterate on
-        user feedback loops to streamline learning experiences and drive
-        engagement.
-      </>,
     ],
-    skills: ["TypeScript", "Node.js", "Next.js", "FastAPI", "OpenAI", "Agile"],
+    skills: [
+      "TypeScript",
+      "Node.js",
+      "AWS S3",
+      "AWS Textract",
+      "AWS Lambda",
+      "Next.js",
+      "FastAPI",
+      "OpenAI",
+      "Agile",
+    ],
   },
   {
     title: "Help Desk Support Agent",

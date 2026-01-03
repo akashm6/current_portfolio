@@ -31,10 +31,9 @@ const sections = [
   {
     icon: <Terminal className="w-5 h-5 text-purple-500 shrink-0" />,
     title: "Current Fixations",
-    content: `• Currently working as a Software Engineer Intern at LawBandit, writing TypeScript code for smart PDF navigation and interactive legal visualizations.
-    • Interested in getting into some ML research!
-    • Trying out React Native mobile development.
-    • Learning optimal query patterns for database interactions.`,
+    content: `• Currently working as a Software Engineer Intern at Quasar, writing real-time signal processing and visualization pipelines for EEG hardware.
+    • Learning some CI/CD stuff (Github Actions, Jenkins, getting better at Docker, etc.)
+    • Enjoying my last semester of college!`,
   },
   {
     icon: <Flame className="w-5 h-5 text-purple-500 shrink-0" />,

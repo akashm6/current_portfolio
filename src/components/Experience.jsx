@@ -2,7 +2,14 @@
 
 import { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { Database, Code2, Router, FilePlus, CircuitBoard } from "lucide-react";
+import {
+  Database,
+  Code2,
+  Router,
+  FilePlus,
+  CircuitBoard,
+  GitCompareArrows,
+} from "lucide-react";
 import {
   Card,
   CardContent,
@@ -18,6 +25,17 @@ import {
 } from "@/components/ui/dialog";
 
 const experiences = [
+  {
+    title: "Incoming Software Engineer",
+    company: "Experian",
+    logo: "/experian2.png",
+    timeframe: "Jun 2026 – Onwards",
+    icon: GitCompareArrows,
+    description:
+      "Will be working as a full-time SWE in Experian's Xcelerator Program after graduation!",
+    details: [<>Nothing to see here for now! Will be updated soon.</>],
+    skills: ["TBD"],
+  },
   {
     title: "Software Engineer Intern",
     company: "Quasar",
@@ -56,7 +74,7 @@ const experiences = [
     title: "Software Engineer Intern",
     company: "LawBandit",
     logo: "/lawbandit_logo.jpeg",
-    timeframe: "Sep 2025 – Present",
+    timeframe: "Sep 2025 – Dec 2025",
     icon: FilePlus,
     description:
       "Shipping legal educational tools with TypeScript and LLMs to streamline document navigation for thousands of users.",
